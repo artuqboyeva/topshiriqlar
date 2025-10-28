@@ -1,0 +1,97 @@
+# O’zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O’zbekiston•
+# .1  Berilgan matnni hamma harflarini katta qilib chiqaring.
+# •2  Berilgan matnni hamma harflarini kichik qilib chiqaring.
+# •3  Matndagi har bir so‘z bosh harf bilan boshlansin.
+# •  Matnning faqat birinchi harfini katta qilib chiqaring.
+# •  Matndagi katta harflarni kichikka, kichiklarni kattaga aylantiring.
+# •  Matn boshida va oxirida turgan bo‘sh joylarni olib tashlang.
+# •  Faqat chap tomondagi bo‘sh joylarni olib tashlang.
+# •  Faqat o‘ng tomondagi bo‘sh joylarni olib tashlang.
+# •  Matndan ma’lum bir so‘zni boshqasi bilan almashtiring.
+# •  Vergul orqali ajratilgan so‘zlarni ro‘yxatga ajrating.
+# •11  Ro‘yxatdagi so‘zlarni bitta satrga vergul bilan birlashtiring.
+# •12  Berilgan matndan ma’lum belgi indeksini toping.
+# •13  Matnda so‘zni oxiridan boshlab qidirib toping.
+# •14  Belgining birinchi uchrashgan o‘rnini toping.
+# •15  Belgining matnda nechta marta uchrashganini aniqlang.
+# •16  Matn ma’lum so‘z bilan boshlanadimi — tekshiring.
+# •17  Matn ma’lum so‘z bilan tugaydimi — tekshiring.
+# •18  Foydalanuvchi kiritgan satr faqat raqamlardan iboratligini tekshiring.
+# •19  Satr faqat harflardan iboratligini tekshiring.
+# •20  Satr faqat harf va raqamlardan iboratligini tekshiring.
+# •21  Satr faqat bo‘sh joylardan iboratligini tekshiring.
+# •22  Matnning barcha harflari kichik bo‘lsa, True chiqaring.
+# •23  Matnning barcha harflari katta bo‘lsa, True chiqaring.
+# •24  Matn har bir so‘z bosh harf bilan yozilganini tekshiring.
+# •25  Matnni 10 ta belgilik maydonda o‘rtaga joylashtiring.
+# •26  Matnni 12 ta belgilik maydonda chapga joylashtiring.
+# •27  Matnni 12 ta belgilik maydonda o‘ngga joylashtiring.
+# •28  Berilgan raqamni 5 xonali qilib, boshiga nol qo‘shib chiqaring.
+# •29  Matnni “:” belgisi orqali 3 qismga ajrating.
+# •30  format() yordamida foydalanuvchining ismi va yoshini chiqaruvchi matn tuzing.
+# text1="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text1.upper())
+# text2="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text2.lower())
+# text3="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text3.title())
+# text4="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text4.capitalize())
+# text5="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text5.swapcase())
+# text6=" O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text6.strip())
+# text7="   O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston  ."
+# print(text7.lstrip())
+# text8="   O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston  ."
+# print(text8.rstrip())
+# text9="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text9.replace(input("oldingi matnni kiriting"),input("keyingi matnni kiriting")))
+# text10="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text10.split())
+# text11="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# a=text11.split(" ")
+# print(",".join(a))
+# text12="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text12.index("o"))
+# text13="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text13.rfind("mening"))
+# text14="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text14.find("O"))
+# text15="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text15.count('s'))
+# text16="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text16.startswith("vatanim"))
+# text17="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text17.endswith("ona"))
+# text18="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# # print(text18.isdigit())
+# text19="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text19.isalpha())
+# text20="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text20.isalnum())
+# text21="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text21.isspace())
+# text22="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text22.islower())
+# text23="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text23.isupper())
+# text24="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text24.istitle())
+# text25="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text25.center(10))
+# text26="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text26.ljust(12))
+# text27="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(text27.rjust(12))
+# text28="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# print(str(text28).zfill(100))
+# text29="O'zbekiston vatanim mening. Vatan ostonadan boshlanadi. Ona vatanim O'zbekiston."
+# parts = text29.split(":", 3)
+# print(parts)
+# text30
+# ism = "Shaxzoda"
+# yosh = 18
+# print("Mening ismim {} va Yoshim {} da".format(ism, yosh))
+
+
