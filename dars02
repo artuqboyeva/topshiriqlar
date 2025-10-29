@@ -2,13 +2,13 @@
 # .1  Berilgan matnni hamma harflarini katta qilib chiqaring.
 # •2  Berilgan matnni hamma harflarini kichik qilib chiqaring.
 # •3  Matndagi har bir so‘z bosh harf bilan boshlansin.
-# •  Matnning faqat birinchi harfini katta qilib chiqaring.
-# •  Matndagi katta harflarni kichikka, kichiklarni kattaga aylantiring.
-# •  Matn boshida va oxirida turgan bo‘sh joylarni olib tashlang.
-# •  Faqat chap tomondagi bo‘sh joylarni olib tashlang.
-# •  Faqat o‘ng tomondagi bo‘sh joylarni olib tashlang.
-# •  Matndan ma’lum bir so‘zni boshqasi bilan almashtiring.
-# •  Vergul orqali ajratilgan so‘zlarni ro‘yxatga ajrating.
+# •4  Matnning faqat birinchi harfini katta qilib chiqaring.
+# •5  Matndagi katta harflarni kichikka, kichiklarni kattaga aylantiring.
+# •6  Matn boshida va oxirida turgan bo‘sh joylarni olib tashlang.
+# •7  Faqat chap tomondagi bo‘sh joylarni olib tashlang.
+# •8  Faqat o‘ng tomondagi bo‘sh joylarni olib tashlang.
+# •9  Matndan ma’lum bir so‘zni boshqasi bilan almashtiring.
+# •10  Vergul orqali ajratilgan so‘zlarni ro‘yxatga ajrating.
 # •11  Ro‘yxatdagi so‘zlarni bitta satrga vergul bilan birlashtiring.
 # •12  Berilgan matndan ma’lum belgi indeksini toping.
 # •13  Matnda so‘zni oxiridan boshlab qidirib toping.
