@@ -1,0 +1,148 @@
+# No1
+# a=["Jizzax","Buxoro","Toshkent"]
+# for i in a:#     print(i)
+# No2
+# b=[1,2,3,4,5,6,7,8,9]# s=0
+# for i in b:
+#     s=s+i
+#     print(s)
+# No3
+# b=[1,2,3,4,5,6,7,8,9]
+# c=[]
+# for i in b:
+#    c.append(i)
+# print(max(c))
+# No4
+# b=[1,2,3,4,5,6,7,8,9]
+# c=[]
+# for i in b:
+#    c.append(i)
+# print(min(c))
+# No5
+# b=[1,2,3,4,5,6,7,8,9]
+# a=[]
+# for i in b:
+#     a.append(i*2)
+# print(a)
+# No6
+# b=[1,2,3,4,5,6,7,8,9]
+# a=[]
+# for i in b:
+#     a.append(i**2)
+# print(a)
+# No7
+# b=[1,2,3,4,5,6,7,8,9]# a=[]
+# for i in b:
+#     if i%2==0:
+#         a.append(i)
+# print(a)
+# No8
+# b=[1,2,3,4,5,6,7,8,9]
+# a=[]
+# for i in b:
+#     if i%2!=0:
+#         a.append(i)
+# print(a)
+# No9
+# b=[1,2,3,4,5,6,7,8,9]
+# a=[]
+# for i in b[::-1]:
+#     a.append(i)
+# print(a)
+# No10
+# b = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# for i in range(len(b)):
+#     print(i, "->", b[i])
+# No11
+# b = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# count = 0
+# for n in b:
+#     if n > 0:
+#         count += 1
+# print("n:", count)
+# No12
+# b = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# summa = 0
+# for n in b:
+#     summa += n
+# print("O‘rtacha qiymat:", summa / len(b))
+# No13
+# a=["Jizzax","Buxoro","Toshkent","Andijon"]
+# for w in a:
+#     print(w, "uzunligi:", len(w))
+# No14
+# a=["jizzax","buxoro","toshkent","andijon"]
+# for i in a:
+#      print(i.upper())
+# No15
+# a=["Jizzax","Buxoro","Toshkent","Andijon"]
+# for i in a:
+#     print(i.lower())
+# No16
+# a=["Jizzax","Buxoro","Toshkent","Andijon"]
+# shaxarlar= []
+# for i in a:
+#     nom = input("Shaxar kiriting: ")
+#     shaxarlar.append(nom)
+# print("a", shaxarlar)
+# No17
+# a=["Jizzax","Buxoro","Toshkent","Andijon"]
+# a.remove(a[0])
+# print("b:", a)
+# No18
+# b=[1,2,3,4,5,6,7,8,9]
+# numbers = []
+# for i in range(5):
+#     x = int(input("Son kiriting: "))
+#     numbers.append(x)
+#     numbers.append(b)
+# print("Ro‘yxat:", numbers)
+# No19
+# b=[1,2,3,4,5,6,7,8,9]
+# yigindi = 0
+# for n in b:
+#     yigindi += n
+# print(yigindi)
+# No20
+# a = ["Jizzax", "Buxoro", "Toshkent", "Andijon"]
+# for i in range(len(a)):
+#     print(i + 1, "->", a[i])
+
+
+
+shaxarlar=["Jizzax","Toshkent","Buxoro","Navoi","Samarqand"]
+# No1
+# shaxarlar.sort(reverse=True)
+# print(shaxarlar)
+# No2
+# natija=shaxarlar.append("Xiva")
+# print(natija)
+# print(shaxarlar)
+# No3
+# shaxarlar.insert(0,"Farg'ona")
+# print(shaxarlar)
+# No4# haydash=shaxarlar.remove("Samarqand")
+# print(shaxarlar)
+# No5
+# shaxarlar.clear()
+# print(shaxarlar)
+# No6
+# print(len((shaxarlar)))
+# No7
+# b=[1,2,3,4,5,6,7,8,9]
+# c=[]
+# for i in b:
+#    c.append(i)
+# print(max(c))
+#
+# b=[1,2,3,4,5,6,7,8,9]
+# c=[]
+# for i in b:
+#    c.append(i)
+# print(min(c))
+# No8
+# taxlash=shaxarlar.sort()
+# print(shaxarlar)
+# No9
+# shaxarlar.sort(reverse=True)
+# print(shaxarlar)
