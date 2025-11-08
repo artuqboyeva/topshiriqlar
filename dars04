@@ -90,6 +90,7 @@
 #     if i%2==0:
 #         continue
 #     print(i)
+#Hayotiy masalalar
 #No1
 # for i in range(3):
 #     print("Kofe tayyorlash jarayonini")
