@@ -147,3 +147,45 @@
 #        break
 #else:
 #     print("Urinishlariz tugadi")    
+#No13
+#a=["Humoyun","Behruz","Shaxzoda"]
+#for i in (a):
+#    print(f"{i}-mijozga xizmat koʻrsatish")
+#No14
+# a=[1.2,2.3,4.5,6.7]
+# s=0
+#for i in a:
+#    s+=i
+#    print("sarflandi:",s,"kvt")
+#No15
+#a=[1,2,3,4,"pause",6]
+#for i in a:
+#    if i=="pause":
+#        print("Toʻxtadi")
+#        break
+#    print(f"{i}chi qoʻshiq eshitilmoqda")
+#No16
+#for i in range(1,9):
+#    print(f"{i}chi boʻlak yeyildi")
+#print("pitsa tugadi")
+#No17
+# for i in range(1,8):
+#     if i<=5:
+#         print(i)
+#         continue
+#No19
+# i=" "
+# while i!="998":
+#     i=="998"
+#     i=input("Telefon raqamizni kiriting")
+#     print()
+# print("Raqamiz to'g'ri kiritildi")
+#No20
+# for i in range(1,11):
+#     if i<=8:
+#         print("Nishonga tekkizolmadz",i)
+#         continue
+#     else:
+#         print("Nishonga tekkizdiz",i)
+#
+# print("Otishlariz tugadi")
